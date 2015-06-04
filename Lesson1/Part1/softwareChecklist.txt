@@ -1,0 +1,9 @@
+Installing software 
+1. Install Java                   V 
+2. Install Eclipse                V
+3. Install xMind                  V
+4. Install latest Firefox         V
+5. Install FirePath extension     V
+6. Install Firebug                V
+7. Set up your Git repository     V
+8. Install Team Viewer            V
