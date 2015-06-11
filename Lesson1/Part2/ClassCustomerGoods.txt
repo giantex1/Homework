@@ -1,0 +1,5 @@
+class CustomerGoods
+Attributes : type of goods ( milk product , bakery products , candies , frozen foods , meats, 
+fish and sea foods , non-alcoholic beverages , alcoholic beverage , tea and coffee , toys , Personal hygiene , cigarettes and other tobacco products); name of manufacturer ; manufacturer country ; manufacturer address ; compound ; mass ; storage condition ; production date ; serial price ;
+
+States : expired ; fresh ; without sticker ; placed in cart ; not operating;

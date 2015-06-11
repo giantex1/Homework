@@ -1,0 +1,4 @@
+class Device
+Attributes : mobility (mobile or desktop) ; size of the screen (<2.3" , <6" , <11" , more than 11"); screen resolution ; manufacturer ; operating system ; memory size ; processor ; communications ; colour ; additional options ; price ;
+
+States : scrolling ; touching ; zoom in / zoom out ; rotating ; pressing ;

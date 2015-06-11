@@ -1,0 +1,4 @@
+class Satellite
+Attributes : type (commercial , research , military); orbit (Low Earth orbit , Medium Earth orbit , High Earth orbit); centric (Geocentric orbit , Heliocentric , Areocentric ); size(minisatellite (500–100 kg), microsatellite (below 100 kg), nanosatellite (below 10 kg)) ; launch date ; end of life date ; launch country ; manufacturer country ;
+
+States : Launch , moving to orbit , ascent to orbit , deploying ,transferring data ;

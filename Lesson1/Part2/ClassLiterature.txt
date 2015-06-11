@@ -1,0 +1,4 @@
+class Literature
+Attributes : content (philosophical, political, natural , legal, philological , and artistic); Major form (Poetry , Prose); carrier (paper , cd , clay tablets ); author ; edition ; number of copies ; volume ; storage (library, libraries, archives);
+
+States : written ; read ; copied ; moved to storage ; added ; 
