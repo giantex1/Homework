@@ -1,0 +1,4 @@
+Class Galaxy
+Attributes : GalaxyName ; Age ; Number Of Stars ; Type (Elliptical , Spirals , Other morphologies) ;
+
+Methods : Space Jump ; setGalaxyName ;

@@ -1,0 +1,4 @@
+Class System
+Attributes : StarName ; NumberOfPlanets ; isSuitableForLife ;
+
+Methods : setSystemName ; getPlanetInfo ;

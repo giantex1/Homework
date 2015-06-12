@@ -1,0 +1,4 @@
+Class Planet
+Attributes : isLife ; isWater ; isOxygen ;
+
+Methods : explore ; settle ;

@@ -1,0 +1,4 @@
+Class Arm
+Attributes : ArmName ; ArmLength ; Diameter ;
+
+Methods : getNumberStars ; Scanning ;
