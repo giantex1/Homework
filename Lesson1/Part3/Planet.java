@@ -3,5 +3,5 @@ public class Planet extends System {
 		public boolean isWater;
 		public boolean isOxygen;
 public explore(){return isLife}
-private settle(){}
+private settle(){return "colony is established"}
 }

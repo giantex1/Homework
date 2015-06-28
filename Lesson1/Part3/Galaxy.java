@@ -3,7 +3,8 @@ public class Galaxy {
         public int Age;
         public int NumberOfStars;
         public string Type;
-private SpaceJump(){}
+private SpaceJump(){return "Jump successful"}
 public setGalaxyName(string newGalaxyName)
-        {GalaxyName = newGalaxyName}
+        {GalaxyName = newGalaxyName
+		return GalaxyName}
 }

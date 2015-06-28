@@ -10,15 +10,15 @@ public class Employer {
 	  private int dateOfBirth;
 	  private string department;
 	  private string homeAddress;
-private work(){}
+private work(){return workingTime}
 public getSalary(){return salary}
-public setDepartment(int newDepartment)
+public void setDepartment(int newDepartment)
                       {department=newDepartment}
 public getWorkingTime(){return workingTime}
 public getWorkingExp(){return experience}	
 public getDate(){return dateOfBirth}
-public setAddress(int newAddress){homeAddress=newAddress}
+public void setAddress(int newAddress){homeAddress=newAddress}
 private getAddress(){return homeAddress}
 public getForm(){return form}
-public setFLanguage(){knownForeignLanguage=True}				  	  	
+public void setFLanguage(){knownForeignLanguage=True}				  	  	
 }

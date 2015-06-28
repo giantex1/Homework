@@ -1,4 +1,4 @@
 class MusicInstrument
 Attributes : groups (keyboards , strings , winds , reed instruments , percussion , symphony); range of the instrument (Soprano , Alto , Tenor , Baritone , Bass); material ; colour ; shape ; price;
 
-States : Standing , sitting , playing allegro(lively) , playing loud / quiet , pause ; 
+States : Standing , sitting , playing allegro(lively) , playing loud ; playing quiet , pause ; accompany; playing solo; tuning; changing timbre; 

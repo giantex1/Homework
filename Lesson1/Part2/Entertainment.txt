@@ -1,4 +1,4 @@
 class Entertainment
 Attributes : number of participants(individual or group); activities(education or marketing); type(games , music , movies , readings , drama , handiwork , TV , walk , sport , speaking , joke); place (home , casino , theatre , stadium , amusement park , street ); age ;
 
-States : Running , jumping , listening , throwing , watching ;
+States : Running , jumping , listening , throwing , watching ; singing; meeting; win ; lose ; draw;

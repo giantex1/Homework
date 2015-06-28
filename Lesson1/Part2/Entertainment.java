@@ -10,16 +10,18 @@ public class Entertainment {
 	  private int time;
 	  private string participantsNames;
 	  private boolean isFree;
-private participating(){}
+private void participating(){}
 public getNames(){return participantsNames}
-public setPlace(string newPlace)
+public void setPlace(string newPlace)
                       {place=newPlace}
 public getAge(){return age}
-public getPass(){isFree=True}	
+public getPass(){isFree=True
+                 return isFree}	
 public getDate(){return date}
-public setTime(int newTime)
+public void setTime(int newTime)
                       {time=newTime}
 private getType(){return type}
 public getNumberOf(){return participantsNumber}
-public setForAdult(){isAdult=True}				  	  	
+public setForAdult(){isAdult=True
+                     return isAdult}				  	  	
 }

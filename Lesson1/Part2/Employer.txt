@@ -1,4 +1,4 @@
 class Employer
 Attributes : form of employment ( part-time contract or  full-time job); departments (Headquarters ,human resources ,labs , service staff , ); working experience (years) ; personal skills ; knowledge of foreign languages ; salary ; arriving and departing time ;
 
-States : late arrival ; move for dinner ; taking rest ; working ; reading emails ;
+States : late arrival ; move for dinner ; taking rest ; working ; reading emails ; sending email; meeting; log in; log out; end of working day;

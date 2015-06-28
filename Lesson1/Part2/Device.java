@@ -10,17 +10,17 @@ public class Device {
 	  private string colour;
 	  private string options;
 	  private int price;
-private use(){}
+private void use(){}
 public getScreanSize(){return screenSize}
-public setManufacturer(string newManufacturer)
+public void setManufacturer(string newManufacturer)
                       {manufacturer=newManufacturer}
 public getCPU(){return CPU}
 public getColour(){return colour}	
 public getOptions(){return options}
-public setMemorySize(int newMemory)
+public void setMemorySize(int newMemory)
                       {memory=newMemory}
 private getMemorySize(){return memory}
 public getPrice(){return price}
-public setPrice(int newPrice)
+public void setPrice(int newPrice)
                       {price=newPrice}				  	  	
 }

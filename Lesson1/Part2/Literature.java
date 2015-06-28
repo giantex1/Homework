@@ -10,15 +10,17 @@ public class Literature {
 	  private string awards;
 	  private boolean isFree;
 	  private string Name;
-private publishing(){}
-private setNumberOfCopies(){NumberOfCopies=1000}
-public setPrice(){isFree=True}
+private void publishing(){}
+private setNumberOfCopies(){NumberOfCopies=1000
+                            return NumberOfCopies}
+public void setPrice(){isFree=True}
 public setName(string newName)
-                      {Name=newName}
+                      {Name=newName
+					   return Name}
 public getContent(){return content}
 public getEdition(){return edition}	
 public getVolume(){return volume}
-public setCarrier(){carrier=paper}
+public void setCarrier(){carrier=paper}
 private getAward(){return awards}
 public getAuthor(){return author}		  	  	
 }

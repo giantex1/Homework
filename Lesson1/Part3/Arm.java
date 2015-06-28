@@ -3,5 +3,5 @@ public class Arm extends Galaxy {
 		public int ArmLength;
 		public int Diameter;
 public  getNumberStars(){return NumberOfStars}
-private Scanning(){}		
+private Scanning(){return ArmName,ArmLength,Diameter}		
 }

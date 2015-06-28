@@ -10,15 +10,18 @@ public class CustomerGoods {
 	  private int date;
 	  private int count;
 	  private int total;
-private sell(){return prise}
+private sell(){return price}
 public getCount(){return count}
 public getGoodsType(){return type}
 public setManufacturer(int newManufacturer)
-                      {manufacturer=newManufacturer}
+                      {manufacturer=newManufacturer
+					         return manufacturer}
 public getMass(){return mass}	
 public getDate(){return date}
-public getPrice(int newPrice){price=newPrice}
-private getTotalPrice(){total=price*count}
+public getPrice(int newPrice){price=newPrice
+                             return price}
+private getTotalPrice(){total=price*count
+                             return total}
 public getCountry(){return country}
 public getAddress(){return address}				  	  	
 }
