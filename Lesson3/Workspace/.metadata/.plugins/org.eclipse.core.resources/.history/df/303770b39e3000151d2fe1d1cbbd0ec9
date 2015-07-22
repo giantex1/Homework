@@ -1,0 +1,12 @@
+package preintermediate;
+
+public class Pre12 {
+	public static void main(String[] args) 
+	{
+		int number=12345;
+		String str =Integer.toString(number);
+		char a =str.charAt(0);
+		
+		System.out.println(a);
+	}
+}

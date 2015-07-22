@@ -1,0 +1,18 @@
+package preintermediate;
+
+public class Pre9 {
+	public static void main(String[] args) 
+	{
+		//Insert number 
+		int a=3;
+		int b=0;
+		int res=0;
+		for (int i=0;i<10;i++)
+		{
+			b=b+1;
+			res=a*b;
+			System.out.println(a + " x " + b +" = " + res);
+		}
+	}
+
+}

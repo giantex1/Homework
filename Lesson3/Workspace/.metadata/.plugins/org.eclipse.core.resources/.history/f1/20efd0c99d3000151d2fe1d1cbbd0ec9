@@ -1,0 +1,18 @@
+package preintermediate;
+
+public class Pre12 {
+	public static void main(String[] args) 
+	{
+		/*int number=12345;
+		String str =Integer.toString(number);
+		
+		System.out.println(str);*/
+		
+		 String[] str = "3580.08367 3606.08367 3591.08367 3598.08367 3601.08367".split(" ");
+	        double[] mas = new double[str.length];
+	        for (int i = 0; i < str.length; i++) {
+	            mas[i] = Double.valueOf(str[i]);
+	        }
+	        System.out.println(mas[0]);        
+	}
+}

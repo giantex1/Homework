@@ -1,0 +1,16 @@
+package beginner;
+
+public class B8 {
+	public static void main(String[] args)
+	{
+		String a="Summer";
+		int n;
+		char array[]=a.toCharArray();
+		
+		
+		int len=array.length;
+		System.out.println("Length: " +len);
+		
+	}
+
+}

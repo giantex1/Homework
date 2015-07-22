@@ -1,0 +1,11 @@
+package intermediate;
+import java.lang.Math;
+
+public class Inter2 {
+	public static void main(String[] args) 
+	{
+		double result = Math.pow(5, 32)-(Math.pow(1, 6)*Math.pow(5, 22))+(Math.pow(2, 6)*Math.pow(5, 12));
+		System.out.println("Total number of lucky tickets: " + result);
+	}
+
+}

@@ -1,0 +1,16 @@
+package preintermediate;
+
+public class Pre14 {
+	public static void main(String[] args) 
+	{
+		String word="Testing";
+		String a="";
+		String b="";
+		for(int i=0;i<word.length();i++)
+		{
+			a=b+word.charAt(i);
+			b=b+" ";
+			System.out.println(a);
+		}
+	}
+}

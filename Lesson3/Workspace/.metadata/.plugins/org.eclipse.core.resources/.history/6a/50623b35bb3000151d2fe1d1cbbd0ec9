@@ -1,0 +1,36 @@
+package intermediate;
+import java.util.Scanner;
+
+public class Inter5 {
+	 private static float f = 0, c = 0;
+	    private static final Scanner scan = new Scanner (System.in);
+	    private static int converChoice = 1;
+
+	    public static void main(String [] args) {
+	        System.out.println("Press 1 for C->K or 2 for K->C");
+	        converChoice = scan.nextInt();
+
+	        if (converChoice == 1) 
+	            convertCtoKAndPrint();
+	        else
+	            convertKtoCAndPrint();
+	    }
+
+	    public static void convertKtoCAndPrint() {
+	        System.out.println("Please enter degrees K");
+	        double f = scan.nextDouble();
+
+	        double c = f-273.15;
+
+	        System.out.println(f + " degrees K is " + c + " degrees C.");
+	    }
+
+	    public static void convertCtoKAndPrint() {
+	        System.out.println("Please enter degrees C");
+	        double c = scan.nextDouble();
+
+	        double f = c+273.15;
+
+	        System.out.println(c + " degrees C is " + f + " degrees F.");
+	    }
+}

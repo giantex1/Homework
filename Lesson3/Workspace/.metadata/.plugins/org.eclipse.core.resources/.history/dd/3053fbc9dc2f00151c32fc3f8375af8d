@@ -1,0 +1,18 @@
+package preintermediate;
+
+public class Pre6 {
+	public static int arraySum(int array[])
+	{
+		int total=0;
+		for (int i=0;i<array.length;i++)
+		{
+			total=total+array[i];
+		}
+		return total;
+	}
+	public static void main(String[] args) {
+		//Array of integer numbers
+		int array[] = {2 , 4 , 6 , 4 ,2,2,2,7};
+			System.out.println("Total: " + arraySum(array));
+	}
+}

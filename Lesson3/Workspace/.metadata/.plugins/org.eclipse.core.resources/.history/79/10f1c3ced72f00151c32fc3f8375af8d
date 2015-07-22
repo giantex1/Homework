@@ -1,0 +1,11 @@
+package preintermediate;
+
+public class Pre4 {
+	public static void main(String[] args) {
+		//Array of integer numbers
+		int array[] = {2 , 4 , 6 , 4 ,2};
+		int len=array.length;
+		int half=len/2;
+		System.out.println(half);
+	}
+}

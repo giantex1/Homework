@@ -1,0 +1,35 @@
+package intermediate;
+import java.util.Scanner;
+public class Inter1 {
+
+	public static boolean isValidNumber(int number)
+{
+	if(number<0)
+		{
+		return false;
+		}
+	else
+	{
+		return true;
+	}
+}
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter non-negative number: ");
+		int number = in.nextInt();
+		int res=0;
+		if(isValidNumber(number)==true)
+		{
+		    String str =Integer.toString(number);
+		    for (int i=0;i<str.length();i++)
+		   {
+			   char a =str.charAt(i);
+			   int i1 = Character.getNumericValue(a);
+			   res=res+i1;
+		   }
+		   System.out.println(res);
+		}
+		else System.out.println("Wrong number");
+	}
+}

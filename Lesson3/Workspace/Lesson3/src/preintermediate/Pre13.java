@@ -1,0 +1,25 @@
+package preintermediate;
+import java.lang.Math;
+public class Pre13 {
+	public static double discriminant(double a,double b,double c)
+	{
+		double D=(b*b)-(4*a*c);
+		return D;
+	}
+	public static void main(String[] args) 
+	{
+		double a=1;
+		double b=4;
+		double c=3;
+		if (discriminant(a,b,c)<0)
+		{
+			System.out.println("No distinct roots");
+		}
+		else
+		{
+		double x1=(-b+Math.sqrt(discriminant(a,b,c)))/(2*a);
+		double x2=(-b-Math.sqrt(discriminant(a,b,c)))/(2*a);
+		System.out.println("x1= " + x1 + " x2= " + x2);
+		}
+	}
+}

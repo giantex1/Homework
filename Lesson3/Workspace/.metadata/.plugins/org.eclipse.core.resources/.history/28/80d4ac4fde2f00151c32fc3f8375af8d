@@ -1,0 +1,36 @@
+package preintermediate;
+
+public class Pre7 {
+	public static int arrayMax(int array[])
+	{
+		int Max=array[0];
+		for (int i=0;i<array.length;i++)
+		{
+			if(array[i]>Max)
+				{
+				Max=array[i];
+				}
+		}
+		return Max;
+	}
+	public static int arrayMin(int array[])
+	{
+		int Min=array[0];
+		for (int i=0;i<array.length;i++)
+		{
+			if(array[i]<Min)
+				{
+				Min=array[i];
+				}
+		}
+		return Min;
+	}
+	public static void main(String[] args) {
+		//Array of integer numbers
+		int array[] = {2 , 4 , 6 , 4 ,2,2,2,7};
+			System.out.println("Max: " + arrayMax(array));
+			System.out.println("Max*2: " + arrayMax(array)*2);
+			System.out.println("Min: " + arrayMin(array));
+			System.out.println("Min*2: " + arrayMin(array)*2);		
+	}
+}
