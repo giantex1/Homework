@@ -13,9 +13,11 @@ INSERT INTO `test`.`flights` (`flightnumber`, `departureairport`, `arrivalairpor
 INSERT INTO `test`.`flights` (`flightnumber`, `departureairport`, `arrivalairport`, `stopsnumber`, `averageticketprice`, `availableseats`) VALUES ('1013', 'Budapest', 'Vilnius', '0', '50', '11');
 INSERT INTO `test`.`flights` (`flightnumber`, `departureairport`, `arrivalairport`, `stopsnumber`, `averageticketprice`, `availableseats`) VALUES ('1014', 'Beijing', 'Helsinki', '2', '190', '33');
 INSERT INTO `test`.`flights` (`flightnumber`, `departureairport`, `arrivalairport`, `stopsnumber`, `averageticketprice`, `availableseats`) VALUES ('1015', 'Beijing', 'Barcelona', '1', '149', '13');
-INSERT INTO `test`.`flights` (`flightnumber`, `departureairport`, `arrivalairport`, `stopsnumber`, `averageticketprice`, `availableseats`) VALUES ('1016', 'Sydney', 'Berlin', '1', '800', '13');
+
+
 INSERT INTO `test`.`flights` (`flightnumber`, `departureairport`, `arrivalairport`, `stopsnumber`, `averageticketprice`, `availableseats`) VALUES ('1017', 'Sydney', 'Munich', '1', '1200', '13');
 INSERT INTO `test`.`flights` (`flightnumber`, `departureairport`, `arrivalairport`, `stopsnumber`, `averageticketprice`, `availableseats`) VALUES ('1018', 'Sydney', 'Milan', '1', '1000', '9');
+
 INSERT INTO `test`.`flights` (`flightnumber`, `departureairport`, `arrivalairport`, `stopsnumber`, `averageticketprice`, `availableseats`) VALUES ('1019', 'Paris', 'Ottava', '1', '999', '2');
 INSERT INTO `test`.`flights` (`flightnumber`, `departureairport`, `arrivalairport`, `stopsnumber`, `averageticketprice`, `availableseats`) VALUES ('1020', 'Paris', 'Vilnius', '0', '67', '3');
 INSERT INTO `test`.`flights` (`flightnumber`, `departureairport`, `arrivalairport`, `stopsnumber`, `averageticketprice`, `availableseats`) VALUES ('1021', 'Paris', 'Helsinki', '0', '95', '10');
